@@ -2,9 +2,9 @@ package org.gaurav;
 
 import org.testng.annotations.Test;
 
-public class TestCases {
+public class FirstTestCase {
 
-    @Test(priority = 0)
+    @Test(priority = 1)
     public void setup(){
         System.out.println("This is setup method");
     }
@@ -14,7 +14,7 @@ public class TestCases {
         System.out.println("This is login method");
     }
 
-    @Test(priority = 1)
+    @Test(priority = 3)
     public void close(){
         System.out.println("This is close method");
     }
