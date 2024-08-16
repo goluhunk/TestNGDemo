@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
-    <test name="Test">
+    <test name="Test01">
+        <classes>
+            <!--<class name="org.gaurav.FirstTestCase"/>-->
+           <!-- <class name="org.gaurav.SecondTestCase"/>-->
+            <class name="org.gaurav.TestNGAnnotations1"/>
+            <class name="org.gaurav.TestNGAnnotations2"/>
+        </classes>
+    </test>
+    <test name="Test02">
         <classes>
             <class name="org.gaurav.FirstTestCase"/>
-            <class name="org.gaurav.SecondTestCase"/>
         </classes>
     </test>
 </suite>
