@@ -1,39 +1,125 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-15T11:16:52 BST" name="All Test Suite" finished-at="2024-08-15T11:16:52 BST" duration-ms="125">
+  <suite started-at="2024-08-16T21:43:19 BST" name="All Test Suite" finished-at="2024-08-16T21:43:19 BST" duration-ms="291">
     <groups>
     </groups>
-    <test started-at="2024-08-15T11:16:52 BST" name="Test" finished-at="2024-08-15T11:16:52 BST" duration-ms="125">
+    <test started-at="2024-08-16T21:43:19 BST" name="Test01" finished-at="2024-08-16T21:43:19 BST" duration-ms="117">
+      <class name="org.gaurav.TestNGAnnotations1">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:org.gaurav.TestNGAnnotations1@561b6512]" started-at="2024-08-16T21:43:19 BST" name="beforeTest" finished-at="2024-08-16T21:43:19 BST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClassMethod()[pri:0, instance:org.gaurav.TestNGAnnotations1@561b6512]" started-at="2024-08-16T21:43:19 BST" name="beforeClassMethod" finished-at="2024-08-16T21:43:19 BST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassMethod -->
+        <test-method is-config="true" signature="setUP()[pri:0, instance:org.gaurav.TestNGAnnotations1@561b6512]" started-at="2024-08-16T21:43:19 BST" name="setUP" finished-at="2024-08-16T21:43:19 BST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method signature="testMethod1()[pri:0, instance:org.gaurav.TestNGAnnotations1@561b6512]" started-at="2024-08-16T21:43:19 BST" name="testMethod1" finished-at="2024-08-16T21:43:19 BST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.gaurav.TestNGAnnotations1@561b6512]" started-at="2024-08-16T21:43:19 BST" name="tearDown" finished-at="2024-08-16T21:43:19 BST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testMethod2()[pri:0, instance:org.gaurav.TestNGAnnotations1@561b6512]" started-at="2024-08-16T21:43:19 BST" name="testMethod2" finished-at="2024-08-16T21:43:19 BST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod2 -->
+        <test-method is-config="true" signature="setUP()[pri:0, instance:org.gaurav.TestNGAnnotations1@561b6512]" started-at="2024-08-16T21:43:19 BST" name="setUP" finished-at="2024-08-16T21:43:19 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.gaurav.TestNGAnnotations1@561b6512]" started-at="2024-08-16T21:43:19 BST" name="tearDown" finished-at="2024-08-16T21:43:19 BST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUP()[pri:0, instance:org.gaurav.TestNGAnnotations1@561b6512]" started-at="2024-08-16T21:43:19 BST" name="setUP" finished-at="2024-08-16T21:43:19 BST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method signature="testMethod3()[pri:0, instance:org.gaurav.TestNGAnnotations1@561b6512]" started-at="2024-08-16T21:43:19 BST" name="testMethod3" finished-at="2024-08-16T21:43:19 BST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod3 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.gaurav.TestNGAnnotations1@561b6512]" started-at="2024-08-16T21:43:19 BST" name="tearDown" finished-at="2024-08-16T21:43:19 BST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterClassMethod()[pri:0, instance:org.gaurav.TestNGAnnotations1@561b6512]" started-at="2024-08-16T21:43:19 BST" name="afterClassMethod" finished-at="2024-08-16T21:43:19 BST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassMethod -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:org.gaurav.TestNGAnnotations1@561b6512]" started-at="2024-08-16T21:43:19 BST" name="afterTest" finished-at="2024-08-16T21:43:19 BST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- org.gaurav.TestNGAnnotations1 -->
+      <class name="org.gaurav.TestNGAnnotations2">
+        <test-method is-config="true" signature="beforeClassMethod()[pri:0, instance:org.gaurav.TestNGAnnotations2@6aaceffd]" started-at="2024-08-16T21:43:19 BST" name="beforeClassMethod" finished-at="2024-08-16T21:43:19 BST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassMethod -->
+        <test-method is-config="true" signature="setUP()[pri:0, instance:org.gaurav.TestNGAnnotations2@6aaceffd]" started-at="2024-08-16T21:43:19 BST" name="setUP" finished-at="2024-08-16T21:43:19 BST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method signature="testMethod4()[pri:0, instance:org.gaurav.TestNGAnnotations2@6aaceffd]" started-at="2024-08-16T21:43:19 BST" name="testMethod4" finished-at="2024-08-16T21:43:19 BST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod4 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.gaurav.TestNGAnnotations2@6aaceffd]" started-at="2024-08-16T21:43:19 BST" name="tearDown" finished-at="2024-08-16T21:43:19 BST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUP()[pri:0, instance:org.gaurav.TestNGAnnotations2@6aaceffd]" started-at="2024-08-16T21:43:19 BST" name="setUP" finished-at="2024-08-16T21:43:19 BST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method signature="testMethod5()[pri:0, instance:org.gaurav.TestNGAnnotations2@6aaceffd]" started-at="2024-08-16T21:43:19 BST" name="testMethod5" finished-at="2024-08-16T21:43:19 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod5 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.gaurav.TestNGAnnotations2@6aaceffd]" started-at="2024-08-16T21:43:19 BST" name="tearDown" finished-at="2024-08-16T21:43:19 BST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterClassMethod()[pri:0, instance:org.gaurav.TestNGAnnotations2@6aaceffd]" started-at="2024-08-16T21:43:19 BST" name="afterClassMethod" finished-at="2024-08-16T21:43:19 BST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassMethod -->
+      </class> <!-- org.gaurav.TestNGAnnotations2 -->
+    </test> <!-- Test01 -->
+    <test started-at="2024-08-16T21:43:19 BST" name="Test02" finished-at="2024-08-16T21:43:19 BST" duration-ms="19">
       <class name="org.gaurav.FirstTestCase">
-        <test-method signature="setup()[pri:1, instance:org.gaurav.FirstTestCase@3c9754d8]" started-at="2024-08-15T11:16:52 BST" name="setup" finished-at="2024-08-15T11:16:52 BST" duration-ms="10" status="PASS">
+        <test-method signature="setup()[pri:1, instance:org.gaurav.FirstTestCase@4470f8a6]" started-at="2024-08-16T21:43:19 BST" name="setup" finished-at="2024-08-16T21:43:19 BST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="login()[pri:2, instance:org.gaurav.FirstTestCase@3c9754d8]" started-at="2024-08-15T11:16:52 BST" name="login" finished-at="2024-08-15T11:16:52 BST" duration-ms="1" status="PASS">
+        <test-method signature="login()[pri:2, instance:org.gaurav.FirstTestCase@4470f8a6]" started-at="2024-08-16T21:43:19 BST" name="login" finished-at="2024-08-16T21:43:19 BST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="close()[pri:3, instance:org.gaurav.FirstTestCase@3c9754d8]" started-at="2024-08-15T11:16:52 BST" name="close" finished-at="2024-08-15T11:16:52 BST" duration-ms="1" status="PASS">
+        <test-method signature="close()[pri:3, instance:org.gaurav.FirstTestCase@4470f8a6]" started-at="2024-08-16T21:43:19 BST" name="close" finished-at="2024-08-16T21:43:19 BST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- org.gaurav.FirstTestCase -->
-      <class name="org.gaurav.SecondTestCase">
-        <test-method signature="testMethod1()[pri:1, instance:org.gaurav.SecondTestCase@3a52dba3]" started-at="2024-08-15T11:16:52 BST" name="testMethod1" finished-at="2024-08-15T11:16:52 BST" duration-ms="1" status="PASS">
+      <class name="org.gaurav.TestNGAnnotations1">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:org.gaurav.TestNGAnnotations1@561b6512]" started-at="2024-08-16T21:43:19 BST" name="beforeSuite" finished-at="2024-08-16T21:43:19 BST" duration-ms="39" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testMethod1 -->
-        <test-method signature="testMethod2()[pri:2, instance:org.gaurav.SecondTestCase@3a52dba3]" started-at="2024-08-15T11:16:52 BST" name="testMethod2" finished-at="2024-08-15T11:16:52 BST" duration-ms="6" status="PASS">
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:org.gaurav.TestNGAnnotations1@561b6512]" started-at="2024-08-16T21:43:19 BST" name="afterSuite" finished-at="2024-08-16T21:43:19 BST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testMethod2 -->
-        <test-method signature="testMethod3()[pri:3, instance:org.gaurav.SecondTestCase@3a52dba3]" started-at="2024-08-15T11:16:52 BST" name="testMethod3" finished-at="2024-08-15T11:16:52 BST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testMethod3 -->
-      </class> <!-- org.gaurav.SecondTestCase -->
-    </test> <!-- Test -->
+        </test-method> <!-- afterSuite -->
+      </class> <!-- org.gaurav.TestNGAnnotations1 -->
+    </test> <!-- Test02 -->
   </suite> <!-- All Test Suite -->
 </testng-results>
