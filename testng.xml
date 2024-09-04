@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
-    <groups>
-        <run>
-            <include name="sanity"/>
-        </run>
-    </groups>
-    <test name ="LoanTest">
-        <classes>
-            <class name="org.gaurav.CarLoanTest"/>
-            <class name="org.gaurav.HomeLoanTest"/>
-            <class name="org.gaurav.PersonalLoanTest"/>
-        </classes>
-    </test>
+    <test name="Test">
+    <classes>
+        <class name="org.gaurav.dependsOnMethod">
+        </class></classes>
+</test>
 </suite>
